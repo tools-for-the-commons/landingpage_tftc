@@ -39,7 +39,7 @@ const mutedVideo = ref(true);
   min-height: calc(100vh - 4.4rem);
 
   .hero-video {
-    height: 70vh;
+    height: 64vh;
     max-height: 38rem;
   }
 }

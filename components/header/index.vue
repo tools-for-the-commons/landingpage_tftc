@@ -39,12 +39,12 @@ const themeUtils = useTheme();
         <button class="material-symbols-outlined hover:text-sky-900">
           search
         </button>
-        <button
-          class="flex md:hidden hover:text-sky-900 material-symbols-outlined"
-        >
-          menu
-        </button>
         <client-only>
+          <button
+            class="header-menu hover:text-sky-900 material-symbols-outlined"
+          >
+            menu
+          </button>
           <button
             class="hidden md:flex hover:text-sky-900 material-symbols-outlined"
             @click="themeUtils?.toggleThemePreference()"
@@ -61,4 +61,10 @@ const themeUtils = useTheme();
   </header>
 </template>
 
-<style lang="css"></style>
+<style lang="css">
+#header .header-menu {
+  @media screen and (min-width: 768px) {
+    display: none;
+  }
+}
+</style>

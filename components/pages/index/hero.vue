@@ -5,7 +5,7 @@ const mutedVideo = ref(true);
 <template>
   <section
     id="home-hero-page"
-    class="flex flex-col gap-4 items-center text-center"
+    class="flex flex-col gap-4 items-center pb-4 text-center"
   >
     <div class="hero-video mb-8 flex w-full relative">
       <video

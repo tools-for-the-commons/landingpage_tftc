@@ -9,7 +9,7 @@ const mutedVideo = ref(true);
   >
     <div class="hero-video mb-8 flex w-full relative">
       <video
-        class="w-full object-cover object-bottom rounded-b-md"
+        class="w-full object-cover object-center rounded-b-md"
         autoplay
         :muted="mutedVideo"
         loop
@@ -29,8 +29,14 @@ const mutedVideo = ref(true);
     </div>
     <h1 class="text-4xl font-black">Welcome to the United Network Nations</h1>
     <h2 class="text-2xl">
-      TftC: A Community-Powered Protocol for Public Goods.
+      TftC <br />
+      A Community-Powered Protocol for Public Goods.
     </h2>
+    <button
+      class="mt-4 py-2 px-3 text-sm font-medium text-sky-400 border-2 border-sky-400 rounded-md pointer-events-none select-none"
+    >
+      Learn More Below
+    </button>
   </section>
 </template>
 

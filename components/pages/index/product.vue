@@ -44,7 +44,7 @@ function startTransition() {
       (item) => item.label === selectedItem.value.label
     );
     selectedItem.value = items[index + 1] || items[0];
-  }, 10 * 1000);
+  }, 8 * 1000);
 }
 
 function endTransition() {
@@ -63,7 +63,7 @@ if (import.meta.client) {
 <template>
   <section
     id="home-product-page"
-    class="min-h-screen flex flex-col lg:flex-row items-center gap-4 lg:gap-8 p-4 md:p-14"
+    class="min-h-screen flex flex-col lg:flex-row items-center gap-4 lg:gap-8 p-4 md:px-24"
   >
     <div class="flex flex-col w-full max-w-lg">
       <h3 class="text-lg font-medium">
@@ -84,14 +84,13 @@ if (import.meta.client) {
         </li>
       </ul>
     </div>
-    <div class="flex">
+    <div class="flex lg:mx-auto">
       <template v-for="item of items">
         <transition>
           <img
-            class="product-image flex dark:invert w-full pointer-events-none transition-all"
+            class="product-image flex dark:invert w-full max-w-72 lg:max-w-sm pointer-events-none transition-all"
             :src="item.image"
             :alt="item.label"
-            :style="{ maxWidth: '26rem' }"
             v-if="selectedItem.label === item.label"
           />
         </transition>

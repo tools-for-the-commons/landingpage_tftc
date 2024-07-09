@@ -46,7 +46,13 @@ const mutedVideo = ref(true);
 
   .hero-video {
     height: 64vh;
-    max-height: 38rem;
+    max-height: 14rem;
+  }
+
+  @media screen and (min-width: 768px) {
+    .hero-video {
+      max-height: 38rem;
+    }
   }
 }
 </style>

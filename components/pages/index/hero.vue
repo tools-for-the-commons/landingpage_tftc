@@ -33,7 +33,7 @@ const mutedVideo = ref(true);
       A Community-Powered Protocol for Public Goods.
     </h2>
     <button
-      class="mt-4 py-2 px-3 text-sm font-medium text-zinc-700 border-2 border-zinc-600 rounded-md pointer-events-none select-none"
+      class="mt-4 py-2 px-3 text-sm font-medium text-zinc-700 dark:text-zinc-300 border-2 border-zinc-600 dark:border-zinc-400 rounded-md pointer-events-none select-none"
     >
       Learn More Below
     </button>

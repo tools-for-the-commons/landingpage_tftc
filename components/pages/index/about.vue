@@ -3,7 +3,7 @@
 <template>
   <section
     id="home-about-page"
-    class="min-h-screen flex flex-col md:flex-row items-center justify-center gap-1 px-4 lg:px-8 xl:px-32 py-8 bg-zinc-50 dark:bg-slate-900"
+    class="min-h-[32rem] flex flex-col md:flex-row items-center justify-center gap-1 px-4 lg:px-8 xl:px-32 py-8 bg-zinc-50 dark:bg-slate-900"
   >
     <div class="flex flex-col">
       <h3 class="text-center text-3xl font-bold">Explanation</h3>

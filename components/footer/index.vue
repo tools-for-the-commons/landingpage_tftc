@@ -37,27 +37,11 @@ const internalLinks = {
   "ABOUT US": {
     path: "/#home-about-page",
     items: [
-      { label: "Manifest", path: "/" },
-      { label: "Knowledge", path: "/" },
-      { label: "Insights", path: "/" },
-      { label: "Contact", path: "/" },
-    ],
-  },
-  ECOSYSTEM: {
-    path: "/#home-about-page",
-    items: [
-      { label: "OpenGov", path: "/" },
-      { label: "Solutions", path: "/" },
-      { label: "Projects", path: "/" },
-      { label: "Community", path: "/" },
-    ],
-  },
-  GROWTH: {
-    path: "/#home-about-page",
-    items: [
-      { label: "Roadmap", path: "/" },
       { label: "Team", path: "/" },
-      { label: "Partners", path: "/" },
+      { label: "Manifest", path: "/#home-about-page" },
+      { label: "Learn", path: "/" },
+      { label: "Use", path: "/" },
+      { label: "Invest", path: "/" },
     ],
   },
 };
@@ -98,7 +82,7 @@ const internalLinks = {
             >
               {{ key }}
             </nuxt-link>
-            <div class="flex flex-col gap-1 mt-2">
+            <div class="flex gap-3 mt-2">
               <nuxt-link
                 class="text-sm font-medium text-zinc-600 dark:text-zinc-200"
                 v-for="item of internalLink.items"

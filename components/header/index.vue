@@ -2,13 +2,15 @@
 import { useTheme } from "~/composable/theme";
 
 const navLinks = [
-  { label: "Explanation", path: "/#home-about-page" },
+  { label: "Team", path: "/" },
+  { label: "Manifesto", path: "/#home-about-page" },
+  { label: "Learn", path: "/" },
   { label: "Use", path: "/" },
-  { label: "Build", path: "/" },
-  { label: "Participate", path: "/" },
-  { label: "Research", path: "/" },
+  { label: "Invest", path: "/" },
 ];
 const themeUtils = useTheme();
+
+const showMenu = ref(false);
 </script>
 
 <template>
@@ -16,7 +18,7 @@ const themeUtils = useTheme();
     id="header"
     class="sticky top-0 z-10 border-solid border-b-2 border-gray-100 dark:border-zinc-800 bg-white dark:bg-zinc-900"
   >
-    <div class="flex gap-8 items-center max-w-7xl mx-auto px-4 py-2">
+    <div class="flex gap-8 items-center max-w-7xl mx-auto px-6 py-2">
       <div class="flex">
         <nuxt-link to="/#home-hero-page" class="text-3xl font-bold">
           <img
@@ -36,15 +38,38 @@ const themeUtils = useTheme();
         </ul>
       </nav>
       <div class="flex gap-4 ml-auto">
-        <button class="material-symbols-outlined hover:text-sky-900">
-          search
-        </button>
         <client-only>
-          <button
-            class="header-menu hover:text-sky-900 material-symbols-outlined"
-          >
-            menu
-          </button>
+          <div class="relative">
+            <button
+              class="header-menu hover:text-sky-600 material-symbols-outlined"
+              @click="showMenu = !showMenu"
+            >
+              menu
+            </button>
+            <ul
+              class="transition-all flex-col w-screen max-w-44 right-0 gap-2 pt-3 pb-4 px-6 rounded-md absolute shadow-lg bg-white dark:bg-zinc-800"
+              :class="{ flex: showMenu, hidden: !showMenu }"
+            >
+              <li
+                v-for="link in navLinks"
+                :key="link.label"
+                class="hover:text-sky-400 cursor-pointer"
+                @click.stop="showMenu = false"
+              >
+                <nuxt-link class="text-sm" :to="link.path">
+                  {{ link.label }}
+                </nuxt-link>
+              </li>
+              <li
+                class="hover:text-sky-400 cursor-pointer"
+                @click="themeUtils?.toggleThemePreference()"
+              >
+                <button class="flex items-center gap-1 capitalize text-sm">
+                  {{ themeUtils?.currentTheme.value }} theme
+                </button>
+              </li>
+            </ul>
+          </div>
           <button
             class="hidden md:flex hover:text-sky-900 material-symbols-outlined"
             @click="themeUtils?.toggleThemePreference()"
@@ -62,7 +87,8 @@ const themeUtils = useTheme();
 </template>
 
 <style lang="css">
-#header .header-menu {
+#header .header-menu,
+#header .header-menu-options {
   @media screen and (min-width: 768px) {
     display: none;
   }

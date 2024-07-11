@@ -32,11 +32,12 @@ const mutedVideo = ref(true);
       TftC <br />
       A Community-Powered Protocol for Public Goods.
     </h2>
-    <button
-      class="mt-4 py-2 px-3 text-sm font-medium text-zinc-700 dark:text-zinc-300 border-2 border-zinc-600 dark:border-zinc-400 rounded-md pointer-events-none select-none"
+    <nuxt-link
+      class="mt-4 py-2 px-3 text-sm font-medium text-zinc-700 dark:text-zinc-300 border-2 border-zinc-600 dark:border-zinc-400 rounded-md"
+      to="/#home-about-page"
     >
       Learn More Below
-    </button>
+    </nuxt-link>
   </section>
 </template>
 

@@ -71,7 +71,7 @@ if (import.meta.client) {
         digital assets and digital commerce, facilitating secure data exchange
         and equitable resource sharing across multiple world regions.
       </h3>
-      <ul class="mt-4 lg:mt-12 list-disc px-6 text-yellow-400">
+      <ul class="mt-4 lg:mt-12 list-disc px-6">
         <li
           class="my-2 cursor-pointer"
           v-for="item of items"

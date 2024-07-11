@@ -2,6 +2,7 @@
 import HomeHeroSection from "~/components/pages/index/hero.vue";
 import HomeAboutSection from "~/components/pages/index/about.vue";
 import HomeProductSection from "~/components/pages/index/product.vue";
+import HomeLearnSection from "~/components/pages/index/learn.vue";
 
 useHead({
   title: "Home",
@@ -13,6 +14,7 @@ useHead({
     <home-hero-section class="max-w-7xl mx-auto" />
     <home-about-section class="max-w-7xl mx-auto" />
     <home-product-section class="max-w-7xl mx-auto" />
+    <home-learn-section class="max-w-7xl mx-auto" />
   </main>
 </template>
 

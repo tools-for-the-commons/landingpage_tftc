@@ -67,8 +67,8 @@ if (import.meta.client) {
   >
     <div class="flex flex-col w-full max-w-lg">
       <h3 class="text-lg font-medium">
-        Introducing CommonWorld, a gateway to the future of open governance
-        digital assets and digital commerce, facilitating secure data exchange
+        Introducing CommonWorld, a gateway to the future of open governance,
+        digital assets, and digital commerce, facilitating secure data exchange
         and equitable resource sharing across multiple world regions.
       </h3>
       <ul class="mt-4 lg:mt-12 list-disc px-6">

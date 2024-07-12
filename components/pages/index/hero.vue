@@ -27,11 +27,8 @@ const mutedVideo = ref(true);
         {{ mutedVideo ? "volume_off" : "volume_up" }}
       </button>
     </div>
-    <h1 class="text-4xl font-black">Welcome to the United Network Nations</h1>
-    <h2 class="text-2xl">
-      TftC <br />
-      A Community-Powered Protocol for Public Goods.
-    </h2>
+    <h1 class="text-4xl font-black">Tools for the Commons</h1>
+    <h2 class="text-2xl">A Community-Powered Protocol for Public Goods</h2>
     <nuxt-link
       class="mt-4 py-2 px-3 text-sm font-medium text-zinc-700 dark:text-zinc-300 border-2 border-zinc-600 dark:border-zinc-400 rounded-md"
       to="/#home-about-page"

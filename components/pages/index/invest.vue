@@ -50,5 +50,3 @@ const handleSubmit = () => {
     </form>
   </section>
 </template>
-
-<style lang="scss" scoped></style>

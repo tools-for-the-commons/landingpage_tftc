@@ -19,14 +19,14 @@ const handleSubmit = () => {
 </script>
 
 <template>
-  <section class="py-8" id="invest-page">
+  <section class="py-8 px-4" id="invest-page">
     <form @submit.prevent="handleSubmit">
       <div
         class="flex flex-col w-full justify-center items-center gap-4 lg:gap-8"
       >
         <h2 class="text-2xl">Get in touch</h2>
 
-        <div class="flex flex-row gap-4 w-full justify-between">
+        <div class="flex flex-col md:flex-row gap-4 w-full justify-between">
           <form-input
             type="email"
             required
@@ -41,7 +41,7 @@ const handleSubmit = () => {
           />
           <button
             type="submit"
-            class="border border-slate-200 dark:border-zinc-600 background- px-4"
+            class="border border-slate-200 dark:border-zinc-600 px-4"
           >
             Submit
           </button>

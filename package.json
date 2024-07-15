@@ -11,7 +11,8 @@
   },
   "dependencies": {
     "nuxt": "^3.12.3",
-    "vue": "latest"
+    "vue": "latest",
+    "vue3-carousel": "0.3.1"
   },
   "devDependencies": {
     "@fortawesome/fontawesome-free": "^6.5.2",

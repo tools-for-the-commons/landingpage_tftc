@@ -9,7 +9,7 @@ const mutedVideo = ref(true);
   >
     <div class="hero-video mb-8 flex w-full relative">
       <video
-        class="w-full object-cover object-center rounded-b-md"
+        class="w-full object-cover object-center rounded-b-md filter grayscale"
         autoplay
         :muted="mutedVideo"
         loop

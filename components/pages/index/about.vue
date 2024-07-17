@@ -13,7 +13,9 @@
         technologies to build network-managed cities and societies.
       </h4>
       <div class="flex justify-center w-full">
-        <button class="border border-slate-200 dark:border-zinc-600 px-4 py-3">
+        <button
+          class="text-sm font-medium text-zinc-700 dark:text-zinc-300 border-2 border-zinc-600 dark:border-zinc-400 rounded-md px-4 py-3"
+        >
           Manifesto
         </button>
       </div>

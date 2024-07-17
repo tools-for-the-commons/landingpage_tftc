@@ -62,7 +62,7 @@ const items = [
 
 <template>
   <section id="home-product-page" class="flex flex-col gap-8 my-9">
-    <h3 class="text-center text-3xl font-bold">Use</h3>
+    <h3 class="text-center text-3xl font-bold">CommonWorld</h3>
     <div
       class="flex flex-col lg:flex-row items-center gap-4 lg:gap-8 p-4 md:px-24"
     >

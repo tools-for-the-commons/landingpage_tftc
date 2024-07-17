@@ -1,21 +1,21 @@
 <script lang="ts" setup>
 const items = [
   {
-    title: "Common Cast",
-    description: "Podcast on the TftC project",
-    image: "/images/common-cast.png",
+    title: "Singularuty",
+    description: "Podcast",
+    image: "/images/singularity-community.png",
     url: "/",
   },
   {
-    title: "Common Stack",
-    description: "NFT collection on the TftC project",
-    image: "/images/common-stack.png",
+    title: "Quintessential",
+    description: "Newsletter",
+    image: "/images/quintessential-newsletter.png",
     url: "/",
   },
   {
-    title: "Common X",
-    description: "NFT collection on the TftC project",
-    image: "/images/common-x.png",
+    title: "Diffusion",
+    description: "Community",
+    image: "/images/diffusion-podcast.png",
     url: "/",
   },
 ];
@@ -28,9 +28,10 @@ const items = [
     <div class="flex flex-col py-6">
       <p class="text-3xl font-semibold">Learn more about TftC</p>
       <p class="mt-4 text-base max-w-sm font-normal">
-        TftC is at the forefront of open governance solutions harnessing
-        blockchain, distributed public utility, and public goods management
-        technologies to build network-managed cities and societies.
+        If you're unsure where to begin, fear not. We're leading educational
+        initiatives to keep you informed about open governance and connect you
+        with industry leaders. From bulletins to think tanks, we bring it all
+        together in a unified network.
       </p>
     </div>
     <div

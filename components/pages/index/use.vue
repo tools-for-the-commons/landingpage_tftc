@@ -17,9 +17,8 @@ import Tribes from "~/assets/images/use/Tribes.png";
     <div class="flex flex-col gap-2">
       <h3 class="text-center text-3xl font-bold">Use</h3>
       <span class="text-muted-foreground text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus
-        nulla, rutrum nec venenatis sit amet, auctor in lectus. Nulla facilisi.
-        Cras sed tortor vel augue molestie porttitor volutpat eget lacus.
+        Wherever you are and whoever you are, we equip you to thrive in a
+        constantly evolving 21st-century world with modular digital tools.
       </span>
     </div>
     <ui-horizontal-list
@@ -28,50 +27,42 @@ import Tribes from "~/assets/images/use/Tribes.png";
         {
           name: 'Diasporas',
           url: Diasporas,
-          description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus
-        Cras lacus.`,
+          description: `Cultures across continents.`,
         },
         {
           name: 'Governments',
           url: Governments,
-          description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus
-        Cras lacus.`,
+          description: `Governance for today's challenges.`,
         },
         {
           name: 'Online Communities',
           url: OnlineCommunities,
-          description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus
-        Cras lacus.`,
+          description: `Virtual spaces, real connections.`,
         },
         {
           name: 'Private Cities',
           url: PrivateCities,
-          description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus
-        Cras lacus.`,
+          description: `Innovative urban living, redefining community.`,
         },
         {
           name: 'Refugees',
           url: Refugees,
-          description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus
-        Cras lacus.`,
+          description: `Safety, built anew.`,
         },
         {
-          name: 'Special Economic Zones',
+          name: 'Digital Free Zones',
           url: SpecialEconomicZones,
-          description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus
-        Cras lacus.`,
+          description: `Global entrepreneurship with regulatory flexibility.`,
         },
         {
           name: 'Startup Societies',
           url: StartupSocieties,
-          description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus
-        Cras lacus.`,
+          description: `New business models for a contemporary civilization.`,
         },
         {
           name: 'Tribes',
           url: Tribes,
-          description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus
-        Cras lacus.`,
+          description: `Heritage in a modern world.`,
         },
       ]"
     />

@@ -15,37 +15,37 @@ import TopVoices from "~/assets/images/build/Top Voices.png";
     <div class="flex flex-col gap-2">
       <h3 class="text-center text-3xl font-bold">Build</h3>
       <span class="text-muted-foreground text-center">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus
-        nulla, rutrum nec venenatis sit amet, auctor in lectus. Nulla facilisi.
-        Cras sed tortor vel augue molestie porttitor volutpat eget lacus.
+        We attract outside-the-box thinkers and collaborate with proactive,
+        talented individuals dedicated to shaping a collective-focused future.
       </span>
     </div>
     <ui-horizontal-list
       class="w-full"
       :logos="[
         {
+          name: 'Software Engineers',
+          url: BlockChainDevelopers,
+          description: `Architects of innovative digital solutions.`,
+        },
+        {
           name: 'Blockchain Developers',
           url: BlockChainDevelopers,
-          description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus
-        Cras lacus.`,
+          description: `Builders of the future in decentralized technologies.`,
         },
         {
-          name: 'Creators',
+          name: 'Content Creators',
           url: Creators,
-          description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus
-        Cras lacus.`,
+          description: `Crafters of compelling narratives resonating across audiences.`,
         },
         {
-          name: 'Designers',
+          name: 'UI/UX Designers',
           url: Designers,
-          description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus
-        Cras lacus.`,
+          description: `Creators of captivating experiences for savvy users to beginners.`,
         },
         {
           name: 'Key Opinion Leaders',
           url: KeyOpinionLeaders,
-          description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus
-        Cras lacus.`,
+          description: `Shapers of perspectives and meaningful public discourse.`,
         },
         {
           name: 'Refugees',
@@ -56,8 +56,7 @@ import TopVoices from "~/assets/images/build/Top Voices.png";
         {
           name: 'Top Voices',
           url: TopVoices,
-          description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus
-        Cras lacus.`,
+          description: `Drivers of conversations with authority in their niche.`,
         },
       ]"
     />

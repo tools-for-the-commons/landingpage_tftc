@@ -2,11 +2,10 @@
 import { useTheme } from "~/composable/theme";
 
 const navLinks = [
-  { label: "Team", path: "/" },
   { label: "Manifesto", path: "/#home-about-page" },
-  { label: "Learn", path: "/" },
-  { label: "Use", path: "/" },
-  { label: "Invest", path: "/" },
+  { label: "Learn", path: "/#learn-page" },
+  { label: "Use", path: "/#use-page" },
+  { label: "Invest", path: "/#invest-page" },
 ];
 const themeUtils = useTheme();
 

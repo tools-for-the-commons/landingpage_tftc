@@ -24,7 +24,7 @@ const handleSubmit = () => {
       <div
         class="flex flex-col w-full justify-center items-center gap-4 lg:gap-8"
       >
-        <h2 class="text-2xl">Get in touch</h2>
+        <h2 class="text-2xl">Invest</h2>
 
         <div class="flex flex-col md:flex-row gap-4 w-full justify-between">
           <form-input

@@ -5,7 +5,7 @@ const mutedVideo = ref(true);
 <template>
   <section
     id="home-hero-page"
-    class="flex flex-col gap-4 items-center pb-4 text-center"
+    class="flex flex-col gap-4 items-center pb-4 text-center justify-center"
   >
     <div class="hero-video mb-8 flex w-full relative">
       <video
@@ -27,8 +27,9 @@ const mutedVideo = ref(true);
         {{ mutedVideo ? "volume_off" : "volume_up" }}
       </button>
     </div>
-    <h1 class="text-4xl font-black">Tools for the Commons</h1>
-    <h2 class="text-2xl">A Community-Powered Protocol for Public Goods</h2>
+    <h1 class="text-4xl font-black">Welcome to the United Nations</h1>
+    <h2 class="text-2xl font-black">Tools for the Commons</h2>
+    <h3 class="text-xl">A Community-Powered Protocol for Public Goods</h3>
     <nuxt-link
       class="mt-4 py-2 px-3 text-sm font-medium text-zinc-700 dark:text-zinc-300 border-2 border-zinc-600 dark:border-zinc-400 rounded-md"
       to="/#home-about-page"

@@ -11,7 +11,7 @@ import Tribes from "~/assets/images/use/Tribes.png";
 
 <template>
   <section
-    id="home-about-page"
+    id="use-page"
     class="min-h-[32rem] flex flex-col items-center justify-around gap-8 px-4 lg:px-8 xl:px-32 py-8"
   >
     <div class="flex flex-col gap-2">

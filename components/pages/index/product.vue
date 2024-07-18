@@ -62,11 +62,11 @@ const items = [
 
 <template>
   <section id="home-product-page" class="flex flex-col gap-8 my-9">
-    <h3 class="text-center text-3xl font-bold">CommonWorld</h3>
     <div
       class="flex flex-col lg:flex-row items-center gap-4 lg:gap-8 p-4 md:px-24"
     >
       <div class="flex flex-col w-full max-w-lg">
+        <h1 class="text-start text-3xl font-bold mb-4">CommonWorld</h1>
         <h3 class="text-lg font-medium">
           Introducing CommonWorld, a gateway to the future of open governance,
           digital assets, and digital commerce, facilitating secure data

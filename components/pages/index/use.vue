@@ -4,7 +4,7 @@ import Governments from "~/assets/images/use/Governments.png";
 import OnlineCommunities from "~/assets/images/use/Online Communities.png";
 import PrivateCities from "~/assets/images/use/Private Cities.png";
 import Refugees from "~/assets/images/use/Refugees.png";
-import SpecialEconomicZones from "~/assets/images/use/Special Economic Zones.png";
+import DigitalFreeZones from "~/assets/images/use/Digital Free Zones.png";
 import StartupSocieties from "~/assets/images/use/Startup Societies.png";
 import Tribes from "~/assets/images/use/Tribes.png";
 </script>
@@ -51,7 +51,7 @@ import Tribes from "~/assets/images/use/Tribes.png";
         },
         {
           name: 'Digital Free Zones',
-          url: SpecialEconomicZones,
+          url: DigitalFreeZones,
           description: `Global entrepreneurship with regulatory flexibility.`,
         },
         {

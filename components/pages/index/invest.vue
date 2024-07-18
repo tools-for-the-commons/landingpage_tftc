@@ -24,8 +24,13 @@ const handleSubmit = () => {
       <div
         class="flex flex-col w-full justify-center items-center gap-4 lg:gap-8"
       >
-        <h2 class="text-2xl">Get in touch</h2>
-
+        <div class="flex flex-col gap-2 justify-center items-center">
+          <h2 class="text-3xl font-bold">Invest</h2>
+          <span class="text-muted-foreground text-center">
+            Got interested? Contact us by filling out the form, and we'll get
+            back to you as soon as possible
+          </span>
+        </div>
         <div class="flex flex-col md:flex-row gap-4 w-full justify-between">
           <form-input
             type="email"

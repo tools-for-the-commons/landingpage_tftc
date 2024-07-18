@@ -48,7 +48,7 @@ onUnmounted(() => {
       <div
         class="w-full flex flex-col gap-8 border border-slate-200 dark:border-zinc-600 p-4 h-[250px]"
       >
-        <img class="w-20 h-24" :src="logo.url" :alt="logo.name" />
+        <img class="w-16 h-20" :src="logo.url" :alt="logo.name" />
         <div class="flex flex-col gap-2">
           <span class="font-semibold text-justify">{{ logo.name }}</span>
           <span class="text-gray-500 text-xs text-start">{{

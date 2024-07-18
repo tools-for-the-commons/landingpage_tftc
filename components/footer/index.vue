@@ -37,11 +37,10 @@ const internalLinks = {
   "ABOUT US": {
     path: "/#home-about-page",
     items: [
-      { label: "Team", path: "/" },
-      { label: "Manifest", path: "/#home-about-page" },
-      { label: "Learn", path: "/" },
-      { label: "Use", path: "/" },
-      { label: "Invest", path: "/" },
+      { label: "Manifesto", path: "/#home-about-page" },
+      { label: "Learn", path: "/#learn-page" },
+      { label: "Use", path: "/#use-page" },
+      { label: "Invest", path: "/#invest-page" },
     ],
   },
 };

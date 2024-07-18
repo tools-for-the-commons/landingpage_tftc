@@ -4,14 +4,14 @@ import Governments from "~/assets/images/use/Governments.png";
 import OnlineCommunities from "~/assets/images/use/Online Communities.png";
 import PrivateCities from "~/assets/images/use/Private Cities.png";
 import Refugees from "~/assets/images/use/Refugees.png";
-import SpecialEconomicZones from "~/assets/images/use/Special Economic Zones.png";
+import DigitalFreeZones from "~/assets/images/use/Digital Free Zones.png";
 import StartupSocieties from "~/assets/images/use/Startup Societies.png";
 import Tribes from "~/assets/images/use/Tribes.png";
 </script>
 
 <template>
   <section
-    id="home-about-page"
+    id="use-page"
     class="min-h-[32rem] flex flex-col items-center justify-around gap-8 px-4 lg:px-8 xl:px-32 py-8"
   >
     <div class="flex flex-col gap-2">
@@ -51,7 +51,7 @@ import Tribes from "~/assets/images/use/Tribes.png";
         },
         {
           name: 'Digital Free Zones',
-          url: SpecialEconomicZones,
+          url: DigitalFreeZones,
           description: `Global entrepreneurship with regulatory flexibility.`,
         },
         {

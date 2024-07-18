@@ -1,10 +1,12 @@
 <script lang="ts" setup>
-import BlockChainDevelopers from "~/assets/images/build/Blockchain Developers.png";
+import BlockChainDevelopers from "~/assets/images/build/Blockchain_Developers.png";
 import Creators from "~/assets/images/build/Creators.png";
-import Designers from "~/assets/images/build/Designers.png";
-import KeyOpinionLeaders from "~/assets/images/build/Key Opinion Leaders.png";
-import SoftwareEngineers from "~/assets/images/build/Software Engineers.png";
-import TopVoices from "~/assets/images/build/Top Voices.png";
+import LegalEngineers from "~/assets/images/build/Legal_Engineers.png";
+import FinancialEngineers from "~/assets/images/build/Financial_Engineers.png";
+import Designers from "~/assets/images/build/UI_UX Designers.png";
+import KeyOpinionLeaders from "~/assets/images/build/Key_Opinion_Leaders.png";
+import SoftwareEngineers from "~/assets/images/build/Software_Engineers.png";
+import TopVoices from "~/assets/images/build/Top_Voices.png";
 </script>
 
 <template>
@@ -23,8 +25,8 @@ import TopVoices from "~/assets/images/build/Top Voices.png";
       class="w-full"
       :logos="[
         {
-          name: 'Software Engineers',
-          url: BlockChainDevelopers,
+          name: 'Software Architects',
+          url: SoftwareEngineers,
           description: `Architects of innovative digital solutions.`,
         },
         {
@@ -33,26 +35,31 @@ import TopVoices from "~/assets/images/build/Top Voices.png";
           description: `Builders of the future in decentralized technologies.`,
         },
         {
-          name: 'Content Creators',
-          url: Creators,
-          description: `Crafters of compelling narratives resonating across audiences.`,
-        },
-        {
           name: 'UI/UX Designers',
           url: Designers,
           description: `Creators of captivating experiences for savvy users to beginners.`,
+        },
+        {
+          name: 'Financial Engineers',
+          url: FinancialEngineers,
+          description: `Designers of sophisticated financial algorithm models.`,
+        },
+        {
+          name: 'Legal Engineers',
+          url: LegalEngineers,
+          description: `Developers of adaptive legal frameworks for digital compliance.`,
+        },
+        {
+          name: 'Content Creators',
+          url: Creators,
+          description: `Crafters of compelling narratives resonating across audiences.`,
         },
         {
           name: 'Key Opinion Leaders',
           url: KeyOpinionLeaders,
           description: `Shapers of perspectives and meaningful public discourse.`,
         },
-        {
-          name: 'Refugees',
-          url: SoftwareEngineers,
-          description: `Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque lacus
-        Cras lacus.`,
-        },
+
         {
           name: 'Top Voices',
           url: TopVoices,

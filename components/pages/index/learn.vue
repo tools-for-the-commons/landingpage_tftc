@@ -43,15 +43,17 @@ const items = [
       :key="item.title"
       :style="{ order: index }"
     >
-      <img
-        class="flex object-cover object-center h-56"
-        :src="item.image"
-        :alt="item.title"
-      />
-      <div class="flex flex-col py-5 px-6">
-        <p class="text-lg font-semibold">{{ item.title }}</p>
-        <p class="mt-2 text-sm font-normal">{{ item.description }}</p>
-      </div>
+      <a class="w-full h-full" :href="item.url" target="_blank">
+        <img
+          class="flex object-cover object-center h-56 w-full"
+          :src="item.image"
+          :alt="item.title"
+        />
+        <div class="flex flex-col py-5 px-6">
+          <p class="text-lg font-semibold">{{ item.title }}</p>
+          <p class="mt-2 text-sm font-normal">{{ item.description }}</p>
+        </div>
+      </a>
     </div>
   </section>
 </template>

@@ -3,7 +3,7 @@ const socialLinks = [
   {
     label: "Linkdin",
     icon: "fab fa-linkedin",
-    path: "https://www.linkedin.com/company/toolsforthecommonsxyz/",
+    path: "https://www.linkedin.com/company/tools-for-the-commons/",
   },
   {
     label: "Twitter",

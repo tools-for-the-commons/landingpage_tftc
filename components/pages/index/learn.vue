@@ -4,19 +4,19 @@ const items = [
     title: "Singularity",
     description: "Community",
     image: "/images/singularity-community.png",
-    url: "/",
+    url: "https://x.com/tftcxyz",
   },
   {
     title: "Quintessential",
     description: "Newsletter",
     image: "/images/quintessential-newsletter.png",
-    url: "/",
+    url: "https://substack.com/@quintessentialxyz",
   },
   {
     title: "Diffusion",
     description: "Podcast",
     image: "/images/diffusion-podcast.png",
-    url: "/",
+    url: "https://www.youtube.com/@diffusionxyz",
   },
 ];
 </script>

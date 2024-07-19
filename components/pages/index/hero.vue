@@ -27,7 +27,7 @@ const mutedVideo = ref(true);
         {{ mutedVideo ? "volume_off" : "volume_up" }}
       </button>
     </div>
-    <h1 class="text-4xl font-black">Welcome to the United Nations</h1>
+    <h1 class="text-4xl font-black">Welcome to the United Network Nations</h1>
     <h2 class="text-2xl font-black">Tools for the Commons</h2>
     <h3 class="text-xl">A Community-Powered Protocol for Public Goods</h3>
     <nuxt-link

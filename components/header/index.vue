@@ -34,6 +34,15 @@ const showMenu = ref(false);
               {{ link.label }}
             </nuxt-link>
           </li>
+          <li>
+            <a
+              class="hover:text-sky-400"
+              href="https://digitalassets.toolsforthecommons.com/"
+              target="_blank"
+            >
+              DAZ
+            </a>
+          </li>
         </ul>
       </nav>
       <div class="flex gap-4 ml-auto">
@@ -58,6 +67,18 @@ const showMenu = ref(false);
                 <nuxt-link class="text-sm" :to="link.path">
                   {{ link.label }}
                 </nuxt-link>
+              </li>
+              <li
+                class="hover:text-sky-400 cursor-pointer"
+                @click.stop="showMenu = false"
+              >
+                <a
+                  class="text-sm"
+                  href="https://digitalassets.toolsforthecommons.com/"
+                  target="_blank"
+                >
+                  DAZ
+                </a>
               </li>
               <li
                 class="hover:text-sky-400 cursor-pointer"

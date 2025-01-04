@@ -1,15 +1,15 @@
 <script lang="ts" setup>
-import { useTheme } from "~/composable/theme";
+import { useTheme } from '~/composable/theme'
 
 const navLinks = [
-  { label: "Manifesto", path: "/#home-about-page" },
-  { label: "Learn", path: "/#learn-page" },
-  { label: "Use", path: "/#use-page" },
-  { label: "Invest", path: "/#invest-page" },
-];
-const themeUtils = useTheme();
+  { label: 'Manifesto', path: '/#home-about-page' },
+  { label: 'Learn', path: '/#learn-page' },
+  { label: 'Use', path: '/#use-page' },
+  { label: 'Invest', path: '/#invest-page' },
+]
+const themeUtils = useTheme()
 
-const showMenu = ref(false);
+const showMenu = ref(false)
 </script>
 
 <template>
@@ -68,10 +68,7 @@ const showMenu = ref(false);
                   {{ link.label }}
                 </nuxt-link>
               </li>
-              <li
-                class="hover:text-sky-400 cursor-pointer"
-                @click.stop="showMenu = false"
-              >
+              <li class="hover:text-sky-400 cursor-pointer" @click.stop="showMenu = false">
                 <a
                   class="text-sm"
                   href="https://digitalassets.toolsforthecommons.com/"
@@ -94,11 +91,7 @@ const showMenu = ref(false);
             class="hidden md:flex hover:text-sky-900 material-symbols-outlined"
             @click="themeUtils?.toggleThemePreference()"
           >
-            {{
-              themeUtils?.currentTheme.value === "light"
-                ? "dark_mode"
-                : "light_mode"
-            }}
+            {{ themeUtils?.currentTheme.value === 'light' ? 'dark_mode' : 'light_mode' }}
           </button>
         </client-only>
       </div>

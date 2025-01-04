@@ -1,30 +1,30 @@
 <script lang="ts" setup>
 const items = [
   {
-    label: "Digital Self",
-    image: "/images/digital-self.webp",
+    label: 'Digital Self',
+    image: '/images/digital-self.webp',
   },
   {
-    label: "AI assistant",
-    image: "/images/ai-assistant.webp",
+    label: 'AI assistant',
+    image: '/images/ai-assistant.webp',
   },
   {
-    label: "Capital Rails",
-    image: "/images/capital-rails.webp",
+    label: 'Capital Rails',
+    image: '/images/capital-rails.webp',
   },
   {
-    label: "Professional and Entrepreneurial Network",
-    image: "/images/professional-and-entrepreneurial-network.webp",
+    label: 'Professional and Entrepreneurial Network',
+    image: '/images/professional-and-entrepreneurial-network.webp',
   },
   {
-    label: "Integrated Exchange Platform",
-    image: "/images/integrated-exchange-platform.webp",
+    label: 'Integrated Exchange Platform',
+    image: '/images/integrated-exchange-platform.webp',
   },
   {
-    label: "Inexpensive Borderless Transaction Fees",
-    image: "/images/inexpensive-borderless-transaction-fees.webp",
+    label: 'Inexpensive Borderless Transaction Fees',
+    image: '/images/inexpensive-borderless-transaction-fees.webp',
   },
-];
+]
 
 // const selectedItem = ref(items[0]);
 // const transitionInterval = ref<NodeJS.Timeout | null>(null);
@@ -62,22 +62,16 @@ const items = [
 
 <template>
   <section id="home-product-page" class="flex flex-col gap-8 my-9">
-    <div
-      class="flex flex-col lg:flex-row items-center gap-4 lg:gap-8 p-4 md:px-24"
-    >
+    <div class="flex flex-col lg:flex-row items-center gap-4 lg:gap-8 p-4 md:px-24">
       <div class="flex flex-col w-full max-w-lg">
         <h1 class="text-start text-3xl font-bold mb-4">CommonWorld</h1>
         <h3 class="text-lg font-medium">
-          Introducing CommonWorld, a gateway to the future of open governance,
-          digital assets, and digital commerce, facilitating secure data
-          exchange and equitable resource sharing across multiple world regions.
+          Introducing CommonWorld, a gateway to the future of open governance, digital assets, and
+          digital commerce, facilitating secure data exchange and equitable resource sharing across
+          multiple world regions.
         </h3>
         <ul class="mt-4 lg:mt-12 list-disc px-6">
-          <li
-            class="my-2 cursor-pointer"
-            v-for="item of items"
-            :key="item.label"
-          >
+          <li class="my-2 cursor-pointer" v-for="item of items" :key="item.label">
             <span class="text-zinc-900 dark:text-zinc-100">
               {{ item.label }}
             </span>

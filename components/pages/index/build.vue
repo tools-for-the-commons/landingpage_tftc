@@ -1,12 +1,12 @@
 <script lang="ts" setup>
-import BlockChainDevelopers from "~/assets/images/build/Blockchain_Developers.png";
-import Creators from "~/assets/images/build/Creators.png";
-import LegalEngineers from "~/assets/images/build/Legal_Engineers.png";
-import FinancialEngineers from "~/assets/images/build/Financial_Engineers.png";
-import Designers from "~/assets/images/build/UI_UX Designers.png";
-import KeyOpinionLeaders from "~/assets/images/build/Key_Opinion_Leaders.png";
-import SoftwareEngineers from "~/assets/images/build/Software_Engineers.png";
-import TopVoices from "~/assets/images/build/Top_Voices.png";
+import BlockChainDevelopers from '~/assets/images/build/Blockchain_Developers.png'
+import Creators from '~/assets/images/build/Creators.png'
+import LegalEngineers from '~/assets/images/build/Legal_Engineers.png'
+import FinancialEngineers from '~/assets/images/build/Financial_Engineers.png'
+import Designers from '~/assets/images/build/UI_UX Designers.png'
+import KeyOpinionLeaders from '~/assets/images/build/Key_Opinion_Leaders.png'
+import SoftwareEngineers from '~/assets/images/build/Software_Engineers.png'
+import TopVoices from '~/assets/images/build/Top_Voices.png'
 </script>
 
 <template>
@@ -17,8 +17,8 @@ import TopVoices from "~/assets/images/build/Top_Voices.png";
     <div class="flex flex-col gap-2">
       <h3 class="text-center text-3xl font-bold">Build</h3>
       <span class="text-muted-foreground text-center">
-        We attract outside-the-box thinkers and collaborate with proactive,
-        talented individuals dedicated to shaping a collective-focused future.
+        We attract outside-the-box thinkers and collaborate with proactive, talented individuals
+        dedicated to shaping a collective-focused future.
       </span>
     </div>
     <ui-horizontal-list

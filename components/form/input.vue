@@ -1,40 +1,38 @@
 <script setup lang="ts">
-import type { InputHTMLAttributes } from "vue";
+import type { InputHTMLAttributes } from 'vue'
 
 type InputTypes = Extract<
-  InputHTMLAttributes["type"],
-  "text" | "number" | "email" | "password" | "tel" | "url"
->;
+  InputHTMLAttributes['type'],
+  'text' | 'number' | 'email' | 'password' | 'tel' | 'url'
+>
 
 interface InputProps {
-  id?: string;
-  label?: string;
-  type?: InputTypes;
-  placeholder?: string;
-  disabled?: boolean;
-  readonly?: boolean;
-  clearable?: boolean;
-  error?: string;
+  id?: string
+  label?: string
+  type?: InputTypes
+  placeholder?: string
+  disabled?: boolean
+  readonly?: boolean
+  clearable?: boolean
+  error?: string
 }
 
 const props = withDefaults(defineProps<InputProps>(), {
-  label: "",
-  type: "text",
-  placeholder: "",
-  error: "",
-});
+  label: '',
+  type: 'text',
+  placeholder: '',
+  error: '',
+})
 
 defineEmits<{
-  (e: "update:modelValue", value: string): void;
-}>();
+  (e: 'update:modelValue', value: string): void
+}>()
 
-const modelValue = defineModel<string | number>();
+const modelValue = defineModel<string | number>()
 
-const labelIsFocused = ref(false);
+const labelIsFocused = ref(false)
 
-const inputHasValue = computed(
-  () => modelValue.value && modelValue.value.trim() !== ""
-);
+const inputHasValue = computed(() => modelValue.value && modelValue.value.trim() !== '')
 </script>
 
 <template>

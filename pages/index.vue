@@ -1,15 +1,15 @@
 <script lang="ts" setup>
-import HomeHeroSection from "~/components/pages/index/hero.vue";
-import HomeAboutSection from "~/components/pages/index/about.vue";
-import HomeProductSection from "~/components/pages/index/product.vue";
-import HomeLearnSection from "~/components/pages/index/learn.vue";
-import InvestSection from "~/components/pages/index/invest.vue";
-import UseSection from "~/components/pages/index/use.vue";
-import BuildSection from "~/components/pages/index/build.vue";
+import HomeHeroSection from '~/components/pages/index/hero.vue'
+import HomeAboutSection from '~/components/pages/index/about.vue'
+import HomeProductSection from '~/components/pages/index/product.vue'
+import HomeLearnSection from '~/components/pages/index/learn.vue'
+import InvestSection from '~/components/pages/index/invest.vue'
+import UseSection from '~/components/pages/index/use.vue'
+import BuildSection from '~/components/pages/index/build.vue'
 
 useHead({
-  title: "Home",
-});
+  title: 'Home',
+})
 </script>
 
 <template>

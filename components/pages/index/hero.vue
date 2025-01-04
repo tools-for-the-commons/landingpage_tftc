@@ -1,5 +1,5 @@
 <script lang="ts" setup>
-const mutedVideo = ref(true);
+const mutedVideo = ref(true)
 </script>
 
 <template>
@@ -16,15 +16,13 @@ const mutedVideo = ref(true);
       >
         <source src="~/assets/videos/hero.mp4" type="video/mp4" />
       </video>
-      <div
-        class="absolute inset-0 bg-black opacity-5 pointer-events-none"
-      ></div>
+      <div class="absolute inset-0 bg-black opacity-5 pointer-events-none"></div>
       <button
         class="absolute bottom-2 right-2 material-symbols-outlined text-2xl text-slate-300 :hover:text-white"
         :title="mutedVideo ? 'Unmute' : 'Mute'"
         @click="mutedVideo = !mutedVideo"
       >
-        {{ mutedVideo ? "volume_off" : "volume_up" }}
+        {{ mutedVideo ? 'volume_off' : 'volume_up' }}
       </button>
     </div>
     <h1 class="text-4xl font-black">Welcome to the United Network Nations</h1>

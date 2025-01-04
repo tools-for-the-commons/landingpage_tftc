@@ -1,19 +1,19 @@
 <script setup lang="ts">
-import type { VNodeRef } from "vue";
-import { Carousel, Slide } from "vue3-carousel";
-import "vue3-carousel/dist/carousel.css";
+import type { VNodeRef } from 'vue'
+import { Carousel, Slide } from 'vue3-carousel'
+import 'vue3-carousel/dist/carousel.css'
 
-const carouselRef = ref<VNodeRef | undefined>(undefined);
-let autoPlay: NodeJS.Timeout;
+const carouselRef = ref<VNodeRef | undefined>(undefined)
+let autoPlay: NodeJS.Timeout
 interface Props {
   logos: {
-    name: string;
-    url: string;
-    description: string;
-  }[];
+    name: string
+    url: string
+    description: string
+  }[]
 }
 
-defineProps<Props>();
+defineProps<Props>()
 
 const breakpoints = {
   360: {
@@ -22,17 +22,17 @@ const breakpoints = {
   700: {
     itemsToShow: 4,
   },
-};
+}
 
 onMounted(() => {
   autoPlay = setInterval(() => {
-    carouselRef.value.next();
-  }, 2000);
-});
+    carouselRef.value.next()
+  }, 2000)
+})
 
 onUnmounted(() => {
-  clearInterval(autoPlay);
-});
+  clearInterval(autoPlay)
+})
 </script>
 
 <template>
@@ -51,9 +51,7 @@ onUnmounted(() => {
         <img class="w-16 h-20" :src="logo.url" :alt="logo.name" />
         <div class="flex flex-col gap-2">
           <span class="font-semibold text-justify">{{ logo.name }}</span>
-          <span class="text-gray-500 text-xs text-start">{{
-            logo.description
-          }}</span>
+          <span class="text-gray-500 text-xs text-start">{{ logo.description }}</span>
         </div>
       </div>
     </Slide>

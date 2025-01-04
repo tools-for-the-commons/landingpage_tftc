@@ -8,9 +8,9 @@
     <div class="flex flex-col gap-8">
       <h3 class="text-center text-3xl font-bold">What is TftC?</h3>
       <h4 class="text-center text-lg font-normal max-w-2xl">
-        TftC is at the forefront of open governance solutions, harnessing
-        blockchain, distributed public utility and public goods management
-        technologies to build network-managed cities and societies.
+        TftC is at the forefront of open governance solutions, harnessing blockchain, distributed
+        public utility and public goods management technologies to build network-managed cities and
+        societies.
       </h4>
       <div class="flex justify-center w-full">
         <button

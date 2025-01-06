@@ -2,10 +2,12 @@
 import { useTheme } from '~/composable/theme'
 
 const navLinks = [
-  { label: 'Manifesto', path: '/#home-about-page' },
-  { label: 'Learn', path: '/#learn-page' },
-  { label: 'Use', path: '/#use-page' },
-  { label: 'Invest', path: '/#invest-page' },
+  { label: 'About', path: '/#home-about-page' },
+  { label: 'Solutions', path: '/' },
+  { label: 'Technology', path: '/' },
+  { label: 'Goals', path: '/' },
+  { label: 'Milestone', path: '/' },
+  { label: 'Initiatives', path: '/' },
 ]
 const themeUtils = useTheme()
 
@@ -21,31 +23,22 @@ const showMenu = ref(false)
       <div class="flex">
         <nuxt-link to="/#home-hero-page" class="text-3xl font-bold">
           <img
-            class="w-full max-w-24 md:max-w-32 pointer-events-none dark:invert"
+            class="w-full max-w-20 md:max-w-24 pointer-events-none dark:invert"
             src="~/assets/images/logo.png"
             alt="TftC"
           />
         </nuxt-link>
       </div>
-      <nav class="hidden md:flex">
+      <nav class="hidden md:flex ml-auto">
         <ul class="flex gap-6">
           <li v-for="link in navLinks" :key="link.label">
             <nuxt-link class="hover:text-sky-400" :to="link.path">
               {{ link.label }}
             </nuxt-link>
           </li>
-          <li>
-            <a
-              class="hover:text-sky-400"
-              href="https://digitalassets.toolsforthecommons.com/"
-              target="_blank"
-            >
-              DAZ
-            </a>
-          </li>
         </ul>
       </nav>
-      <div class="flex gap-4 ml-auto">
+      <div class="flex gap-4">
         <client-only>
           <div class="relative">
             <button

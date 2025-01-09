@@ -15,24 +15,21 @@ const showMenu = ref(false)
 </script>
 
 <template>
-  <header
-    id="header"
-    class="sticky top-0 z-10 border-solid border-b-2 border-gray-100 dark:border-zinc-800 bg-white dark:bg-zinc-900"
-  >
-    <div class="flex gap-8 items-center max-w-7xl mx-auto px-6 py-2">
-      <div class="flex">
+  <header id="header" class="sticky top-0 z-10 bg-white dark:bg-zinc-900">
+    <div class="flex gap-8 items-center max-w-[1920px] mx-auto lg:px-14 px-6 lg:py-9 py-4">
+      <div class="flex mr-auto">
         <nuxt-link to="/#home-hero-page" class="text-3xl font-bold">
           <img
-            class="w-full max-w-20 md:max-w-24 pointer-events-none dark:invert"
+            class="w-full max-w-20 lg:max-w-28 pointer-events-none dark:invert"
             src="~/assets/images/logo.png"
             alt="TftC"
           />
         </nuxt-link>
       </div>
-      <nav class="hidden md:flex ml-auto">
+      <nav class="hidden lg:flex ml-auto">
         <ul class="flex gap-6">
           <li v-for="link in navLinks" :key="link.label">
-            <nuxt-link class="hover:text-sky-400" :to="link.path">
+            <nuxt-link class="hover:text-sky-400 font-light text-2xl" :to="link.path">
               {{ link.label }}
             </nuxt-link>
           </li>

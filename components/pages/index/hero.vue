@@ -3,13 +3,10 @@ const mutedVideo = ref(true)
 </script>
 
 <template>
-  <section
-    id="home-hero-page"
-    class="flex flex-col gap-4 items-center pb-4 text-center justify-center"
-  >
-    <div class="hero-video mb-8 flex w-full relative">
+  <section id="home-hero-page" class="flex flex-col gap-4 items-center pb-4 text-center relative">
+    <div class="hero-video flex w-full relative">
       <video
-        class="w-full object-cover object-center rounded-b-md filter grayscale"
+        class="w-full object-cover pointer-events-none object-center h-[80vh] max-h-[780px] rounded-sm filter sepia-[0.4] brightness-50"
         autoplay
         :muted="mutedVideo"
         loop
@@ -25,31 +22,17 @@ const mutedVideo = ref(true)
         {{ mutedVideo ? 'volume_off' : 'volume_up' }}
       </button>
     </div>
-    <h1 class="text-4xl font-black">Welcome to the United Network Nations</h1>
-    <h2 class="text-2xl font-black">Tools for the Commons</h2>
-    <h3 class="text-xl">A Community-Powered Protocol for Public Goods</h3>
-    <nuxt-link
-      class="mt-4 py-2 px-3 text-sm font-medium text-zinc-700 dark:text-zinc-300 border-2 border-zinc-600 dark:border-zinc-400 rounded-md"
-      to="/#home-about-page"
-    >
-      Learn More Below
-    </nuxt-link>
+    <div class="absolute px-4 w-full top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2">
+      <h1 class="xl:text-6xl text-2xl font-bold text-zinc-50">Be sovereign and prosper</h1>
+      <h2 class="mt-6 xl:text-2xl text-base font-normal italic text-zinc-50">
+        We build 21st-century countries (/societies/cities): fair, decentralized, and sustainable.
+        <br />
+        <span class="font-light">
+          Empowering progress with Digital Public Infrastructures for the information age.
+        </span>
+      </h2>
+    </div>
   </section>
 </template>
 
-<style lang="css">
-#home-page #home-hero-page {
-  min-height: calc(100vh - 4.4rem);
-
-  .hero-video {
-    height: 64vh;
-    max-height: 14rem;
-  }
-
-  @media screen and (min-width: 768px) {
-    .hero-video {
-      max-height: 38rem;
-    }
-  }
-}
-</style>
+<style lang="css"></style>

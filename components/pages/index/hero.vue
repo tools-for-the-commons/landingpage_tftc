@@ -6,7 +6,7 @@ const mutedVideo = ref(true)
   <section id="home-hero-page" class="flex flex-col gap-4 items-center pb-4 text-center relative">
     <div class="hero-video flex w-full relative">
       <video
-        class="w-full object-cover pointer-events-none object-center h-[80vh] max-h-[780px] rounded-sm filter sepia-[0.4] brightness-50"
+        class="w-full object-cover pointer-events-none object-center h-[80vh] max-h-[700px] rounded-sm filter sepia-[0.4] brightness-50"
         autoplay
         :muted="mutedVideo"
         loop

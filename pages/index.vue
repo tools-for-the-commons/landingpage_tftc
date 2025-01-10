@@ -14,13 +14,13 @@ useHead({
 
 <template>
   <main id="home-page">
-    <home-hero-section class="max-w-screen-2xl mx-auto" />
-    <home-about-section class="max-w-screen-2xl mx-auto" />
-    <home-product-section class="max-w-screen-2xl mx-auto" />
-    <home-learn-section class="max-w-screen-2xl mx-auto" />
-    <use-section class="max-w-screen-2xl mx-auto" />
-    <build-section class="max-w-screen-2xl mx-auto" />
-    <invest-section class="max-w-screen-2xl mx-auto" />
+    <home-hero-section class="max-w-[1720px] mx-auto" />
+    <home-about-section class="max-w-[1720px] mx-auto" />
+    <home-product-section class="max-w-[1720px] mx-auto" />
+    <home-learn-section class="max-w-[1720px] mx-auto" />
+    <use-section class="max-w-[1720px] mx-auto" />
+    <build-section class="max-w-[1720px] mx-auto" />
+    <invest-section class="max-w-[1720px] mx-auto" />
   </main>
 </template>
 

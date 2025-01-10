@@ -6,7 +6,7 @@ import FooterComponent from '~/components/footer/index.vue'
 <template>
   <div
     id="default-layout"
-    class="font-poppins text-zinc-800 dark:text-zinc-100 bg-white dark:bg-zinc-900"
+    class="font-poppins text-zinc-800 dark:text-zinc-100 bg-white dark:bg-zinc-950"
   >
     <header-component />
     <nuxt-page />

@@ -15,7 +15,7 @@ const showMenu = ref(false)
 </script>
 
 <template>
-  <header id="header" class="sticky top-0 z-10 bg-white dark:bg-zinc-900">
+  <header id="header" class="sticky top-0 z-10 bg-white dark:bg-zinc-950">
     <div class="flex gap-8 items-center max-w-[1920px] mx-auto lg:px-14 px-6 lg:py-9 py-4">
       <div class="flex mr-auto">
         <nuxt-link to="/#home-hero-page" class="text-3xl font-bold">
